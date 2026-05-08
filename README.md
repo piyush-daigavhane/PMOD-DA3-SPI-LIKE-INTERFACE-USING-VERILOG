@@ -6,7 +6,7 @@
 ![FPGA](https://img.shields.io/badge/Platform-FPGA-orange?style=for-the-badge)
 ![Clock](https://img.shields.io/badge/Clock-100%20MHz-green?style=for-the-badge)
 ![SPI](https://img.shields.io/badge/SPI-12.5%20MHz-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
+
 
 **A deterministic, fixed-rate SPI driver for 16-bit DACs on FPGA**  
 Designed for PMOD DA3 (AD5541A) · 100 MHz system clock · 666.67 kSa/s update rate
