@@ -1,0 +1,2 @@
+# PMOD-DA3-SPI-LIKE-INTERFACE-USING-VERILOG
+Pmod DA3 SPI MODE 0 interface using Verilog
