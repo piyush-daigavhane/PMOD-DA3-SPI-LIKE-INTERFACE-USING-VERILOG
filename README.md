@@ -95,7 +95,9 @@ The design is divided into three independent always blocks:
 
 The SPI clock is produced by dividing the system clock using the `SCLK_DIV` localparam:
 
-$$\text{SCLK} = \frac{f_{clk}}{2 \times \text{SCLK\_DIV}}$$
+```
+SCLK = f_clk / (2 × SCLK_DIV)
+```
 
 With the defaults:
 
@@ -151,7 +153,9 @@ SAMPLE_CYCLES = 128 + 7 + 15 = 150 clock cycles
 
 Once `SAMPLE_CYCLES` is known, the DAC update rate follows directly:
 
-$$\text{Update Rate} = \frac{f_{clk}}{\text{SAMPLE\_CYCLES}}$$
+```
+Update Rate = f_clk / SAMPLE_CYCLES
+```
 
 ```
 Update Rate = 100 MHz / 150
@@ -168,7 +172,9 @@ This is the effective throughput of the output DAC stream.
 
 To target a specific SPI clock frequency:
 
-$$\text{SCLK\_DIV} = \frac{f_{clk}}{2 \times \text{SCLK}}$$
+```
+SCLK_DIV = f_clk / (2 × SCLK)
+```
 
 **Example — 25 MHz SPI clock:**
 
